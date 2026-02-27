@@ -1,122 +1,95 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <title>Aman Sehrawat | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
 
-        body {
-            background: linear-gradient(135deg, #141e30, #243b55);
-            color: white;
-        }
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
-        header {
-            padding: 20px;
-            text-align: center;
-            background: rgba(0,0,0,0.3);
-        }
-
-        header h1 {
-            font-size: 40px;
-        }
-
-        header p {
-            margin-top: 10px;
-            font-size: 18px;
-            opacity: 0.8;
-        }
-
-        section {
-            padding: 60px 20px;
-            text-align: center;
-        }
-
-        .skills span {
-            display: inline-block;
-            margin: 10px;
-            padding: 10px 20px;
-            background: white;
-            color: #243b55;
-            border-radius: 20px;
-            font-weight: bold;
-        }
-
-        .project {
-            background: rgba(255,255,255,0.1);
-            margin: 20px auto;
-            padding: 20px;
-            border-radius: 10px;
-            width: 80%;
-            transition: 0.3s;
-        }
-
-        .project:hover {
-            transform: scale(1.05);
-            background: rgba(255,255,255,0.2);
-        }
-
-        footer {
-            padding: 20px;
-            background: rgba(0,0,0,0.3);
-        }
-
-        a {
-            color: #ffcc00;
-            text-decoration: none;
-        }
-    </style>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-    <h1>Aman Sehrawat</h1>
-    <p>B.Tech CSE | Java Developer | Future Software Engineer 🚀</p>
-</header>
+<!-- Navbar -->
+<nav>
+    <h2>Aman</h2>
+    <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
 
-<section>
+<!-- Hero Section -->
+<div class="hero">
+    <h1>Hi, I'm <span>Aman Sehrawat</span></h1>
+    <p>B.Tech CSE Student | Java Developer | Future Software Engineer 🚀</p>
+    <a href="#projects" class="btn">View Projects</a>
+</div>
+
+<!-- About Section -->
+<section id="about">
     <h2>About Me</h2>
-    <p>I am a 2nd year B.Tech Computer Science student passionate about Java, coding and building projects.</p>
+    <p>
+        I am a passionate 2nd year Computer Science student from Kurukshetra University.
+        I love building projects and improving my Java & DSA skills.
+    </p>
 </section>
 
-<section class="skills">
+<!-- Skills Section -->
+<section id="skills" class="skills">
     <h2>Skills</h2>
     <span>Java</span>
     <span>OOP</span>
+    <span>DSA</span>
     <span>HTML</span>
     <span>CSS</span>
-    <span>GitHub</span>
+    <span>Git & GitHub</span>
 </section>
 
-<section>
+<!-- Projects Section -->
+<section id="projects">
     <h2>Projects</h2>
 
     <div class="project">
         <h3>Java Calculator</h3>
-        <p>A simple calculator built using Java.</p>
+        <p>Console based calculator using Java.</p>
     </div>
 
     <div class="project">
         <h3>Student Management System</h3>
-        <p>Console based Java project to manage student records.</p>
+        <p>Manage student records using Java & OOP concepts.</p>
+    </div>
+
+    <div class="project">
+        <h3>Portfolio Website</h3>
+        <p>This responsive animated portfolio deployed on GitHub Pages.</p>
     </div>
 
 </section>
 
-<section>
+<!-- Contact Section -->
+<section id="contact">
     <h2>Contact</h2>
     <p>Email: your-email@gmail.com</p>
-    <p>GitHub: <a href="https://github.com/sherawataman46-bit" target="_blank">Visit My GitHub</a></p>
+    <p>
+        GitHub:
+        <a href="https://github.com/sherawataman46-bit" target="_blank" style="color:#ffcc00;">
+            Visit My GitHub
+        </a>
+    </p>
+    <br>
+    <a href="#" class="btn">Download Resume</a>
 </section>
 
+<!-- Footer -->
 <footer>
-    <p>© 2026 Aman Sehrawat | All Rights Reserved</p>
+    <p>© 2026 Aman Sehrawat | Built with ❤️</p>
 </footer>
 
 </body>
