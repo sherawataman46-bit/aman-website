@@ -1,44 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta name="google-site-verification" content="3jEXSHNhRIZiqGIl2G2UsJ4YcNvZiW3eTdGcfOmZsDU" />
-    <meta charset="UTF-8">
+    <title>Aman Sehrawat | Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aman Sehrawat Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #141e30, #243b55);
+            color: white;
+        }
+
+        header {
+            padding: 20px;
+            text-align: center;
+            background: rgba(0,0,0,0.3);
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 18px;
+            opacity: 0.8;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+        }
+
+        .skills span {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background: white;
+            color: #243b55;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+        .project {
+            background: rgba(255,255,255,0.1);
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            width: 80%;
+            transition: 0.3s;
+        }
+
+        .project:hover {
+            transform: scale(1.05);
+            background: rgba(255,255,255,0.2);
+        }
+
+        footer {
+            padding: 20px;
+            background: rgba(0,0,0,0.3);
+        }
+
+        a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <h1>Hello, I am Aman Sehrawat</h1>
-        <p>Java & Web Developer | B.Tech Student</p>
-    </header>
 
-    <section id="skills">
-        <h2>My Skills</h2>
-        <ul>
-            <li>Java Programming</li>
-            <li>HTML, CSS, JavaScript</li>
-            <li>GitHub & Git</li>
-        </ul>
-    </section>
+<header>
+    <h1>Aman Sehrawat</h1>
+    <p>B.Tech CSE | Java Developer | Future Software Engineer 🚀</p>
+</header>
 
-    <section id="projects">
-        <h2>My Projects</h2>
-        <ul>
-            <li>Mini Java Project 1</li>
-            <li>Mini Java Project 2</li>
-            <li>Simple Portfolio Website</li>
-        </ul>
-    </section>
+<section>
+    <h2>About Me</h2>
+    <p>I am a 2nd year B.Tech Computer Science student passionate about Java, coding and building projects.</p>
+</section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>Email: your-sherawataman46@gmail.com</p>
-        <p>WhatsApp / Telegram: +91-9729598175</p>
-    </section>
+<section class="skills">
+    <h2>Skills</h2>
+    <span>Java</span>
+    <span>OOP</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>GitHub</span>
+</section>
 
-    <footer>
-        <p>© 2026 Aman Sehrawat | Portfolio</p>
-    </footer>
+<section>
+    <h2>Projects</h2>
+
+    <div class="project">
+        <h3>Java Calculator</h3>
+        <p>A simple calculator built using Java.</p>
+    </div>
+
+    <div class="project">
+        <h3>Student Management System</h3>
+        <p>Console based Java project to manage student records.</p>
+    </div>
+
+</section>
+
+<section>
+    <h2>Contact</h2>
+    <p>Email: your-email@gmail.com</p>
+    <p>GitHub: <a href="https://github.com/sherawataman46-bit" target="_blank">Visit My GitHub</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Aman Sehrawat | All Rights Reserved</p>
+</footer>
+
 </body>
 </html>
